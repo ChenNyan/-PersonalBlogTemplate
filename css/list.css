@@ -1,0 +1,21 @@
+.block{
+    margin-top: 56px;
+}
+.mb-1{
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media (max-width: 767px) {
+    .footer{
+        height: 100px;
+        line-height: 50px;
+    }
+}
+@media (min-width: 768px) {
+    .footer{
+        height: 50px;
+        line-height: 50px;
+    }
+}

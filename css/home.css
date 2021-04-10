@@ -1,0 +1,17 @@
+body,html{
+    height: 100vh;
+}
+.container-fluid{
+    height: 100vh;
+}
+.row{
+    height: 100vh;
+}
+@media (max-width: 720px) {
+    h1{
+        font-size: 4.8vw;
+    }
+    p{
+        font-size: 3.2vw;
+    }
+}

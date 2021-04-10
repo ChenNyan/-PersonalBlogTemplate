@@ -1,0 +1,25 @@
+.all{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .all{
+        height: 100vh;
+    }
+}
+.main{
+    margin-top: 60px!important;
+}
+@media (max-width: 767px) {
+    .footer{
+        height: 100px;
+        line-height: 50px;
+    }
+}
+@media (min-width: 768px) {
+    .footer{
+        height: 50px;
+        line-height: 50px;
+    }
+}
